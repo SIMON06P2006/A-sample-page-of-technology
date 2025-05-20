@@ -1,0 +1,92 @@
+body{
+    background-color:rgb(75, 98, 75);
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+.menubar{
+    display: inline-block;
+}
+.mainmenu{
+    display: inline-block;
+}
+.title{
+    display: inline-block;
+    padding-right: 15vw;
+    color: darkblue;
+}
+ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 10px;
+    color: rgb(98, 85, 119);
+}
+a{
+    text-decoration: none;
+}
+header{background-color:rgb(60, 27, 116);
+}
+.image{
+    width: 50px;
+    height: auto;
+}
+.bannertext{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin-right: 10;
+}
+.bannerimg{
+    width: 70%;
+    height: auto;
+    display: inline-block;
+}
+.greatcontainer{
+    width:95w;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1%;
+}
+.card{
+    width: 20vw;
+    height: auto;
+    display: inline-block;
+    flex-direction: column;
+    padding: 1%;
+    border: 1px blueviolet solid;
+}
+.flowchart{
+    width: 100%;
+    display: block;
+}
+.flowchartext{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    font-size: 14px;
+}
+.flowchartitle{
+    font-weight: bold;
+}
+.subscribe form{
+    display: flex;
+    justify-content: space-around;
+}
+.subscribe form input{
+    width:30%;
+    height: 1%;
+    padding: 5px 10px 5px 10px;
+}
+.subscribebutton{
+    background-color:blue;
+    color:blueviolet;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.mailconfirmation{
+    text-align: center;
+}
+.subscribe label{
+    display: block;
+    margin-bottom: 20px;
+}

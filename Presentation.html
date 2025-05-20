@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/svg" href="./media/man.png" />
+    <script src="Scripts.js"></script>
+    <title>My programming challenges page - Home</title>
+</head>
+<body>
+    <header>
+       <div class="menubar">
+         <h1 class="title">My Programming Challenge Page</h1>
+         <div>
+            <ul>
+                <li>Home</li>
+                <li>Products</li>
+                <a href="./Contribute.html">
+                    <li><button>Contribute to the crew</button></li>
+                </a>
+                <li><button onclick="location.href='./login.html'">Sign In</button></li>
+                <a href="./Login.html"></a>
+                <li><img alt="Login" src="./media/images.png"/></li>
+            </ul>
+         </div>
+       </div>
+    </header>
+    <main>
+        <div class="banner">
+            </div>
+            <div>
+            </div>
+            <div class="bannertext">
+                <h2>Welcome to your Programming Fundamentals page</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facilis temporibus delectus. Temporibus perspiciatis repellat laudantium. Nihil, dicta deserunt facilis fugit distinctio vel, tenetur voluptate aperiam maiores ipsum repellendus quo!</p>
+            <div>
+            <ul>
+                <li><button>Visit the database</li><button></li>
+                <li><button>Meet the Crew</button></li>
+            </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <img alt="programming" src="./media/programming.png"/>
+        </div>
+    </div>
+    <div>
+            <h2>Our Programming Database</h2>
+            <div class="greatcontainer">
+                <div class="card">
+                    <img alt="flowchart" src="./media/1.6. activity flowchart png.png"/>
+                    <h5 class="flowchartitle">Employees salary problem</h5>
+                    <p class="flowchartext">An employee needs to calculate his/her weekly salary. You can obtain this salary calculating:
+                        <br>
+                        If works 40 hours or less, will earn $16 per hour.<br>
+                        If works more that $40 per hour for first 40 hours and $20 for each extra hour</p>
+                        <button onclick="location.href='./media/1.6. activity flowchart png.png'">Watch the flowchart</button>
+                    </div>
+                    <div class="card">
+                        <img alt="flowchart" src="./media/Term 1.png"/>
+                        <h5 class="flowchartitle">Restaurant consumption problem</h5>
+                        <p class="flowchartext">A restaurant offers a discount of 10% if the client consumes until $100 in products and a discount of 20% for higher consumes. For both cases, the tax percentage is 12%. Do a flowchart that can determine the discount value, the tax value and total price.</p>
+                        <button onclick="location.href='./media/Term 1.png'">Watch the flowchart</button>
+                    </div>
+                    <div class="card">
+                        <img alt="flowchart" src="./media/Activity flowchart.png"/>
+                        <h5 class="flowchartitle">Multiplication with additions</h5>
+                        <p class="flowchartext">Do an algorithm that can calculate the multiplication of two numbers without using the multiplication operator (using additions).
+                        </p>
+                        <button onclick="location.href='./media/Activity flowchart.png'">Watch the flowchart</button>
+                        </div>
+            </div>
+    </div>
+    <script>
+        let random=Math.floor(Math.random()*100)
+    </script>
+    <div class="subscribe">
+        <h2 class="crewtitle">An additional challenge for you!</h2>
+        <label for="number">Type a number between 0 and 100. Try to guess the number!</label>
+           <h2>Do you want more information about the project</h2>
+        <h4>Type your mail to recieve more notifications weekly</h4>
+        <form action="javascript:sendMail(name.value)" method="post">
+            <input type="email" name="email" placeholer="example@mail.com">
+            <input type="submit" name="sendsubscribe" value="Send">
+        </form>
+        <p id="answer"></p>
+        <div><p id="mailsuccess"></p></div>
+        <footer>
+            
+        </footer>
+    </main>
+</body>
+</html>
